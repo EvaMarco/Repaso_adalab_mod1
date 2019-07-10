@@ -1,3 +1,36 @@
 .page__aside{
   padding:20px;
+  display:flex;
+}
+.aside__section1{
+  margin-right: 5px;
+  width: 50%;
+}
+.aside__section2{
+  margin-left: 5px;
+  width: 50%;
+}
+.aside__img{
+  border-radius:50%;
+}
+.description{
+  margin-top:10px;
+}
+.description__title{
+  font-family: $font-family;
+  font-size:$font-md;
+  color: $color-secondary;
+}
+.aside__text{
+  font-family: $font-family;
+  font-size:$font-s;
+  color: $color-secondary;
+}
+.link__section1{
+  margin-bottom:30px;
+}
+.link__text{
+  font-family: $font-family;
+  font-size:$font-s;
+  color: $color-secondary;
 }
