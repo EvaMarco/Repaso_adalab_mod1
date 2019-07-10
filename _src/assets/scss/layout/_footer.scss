@@ -1,9 +1,12 @@
 .page__footer{
   padding:20px;
   border-top: 1px solid $color-light-grey;
+  height: 100px;
+  width: 100%;
+
 }
 .footer__text{
-  font-family: $font-family;
   font-size:$font-xs;
   color: $color-secondary;
 }
+

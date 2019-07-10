@@ -17,12 +17,10 @@
   margin-top:10px;
 }
 .description__title{
-  font-family: $font-family;
   font-size:$font-md;
   color: $color-secondary;
 }
 .aside__text{
-  font-family: $font-family;
   font-size:$font-s;
   color: $color-secondary;
 }
@@ -30,7 +28,18 @@
   margin-bottom:30px;
 }
 .link__text{
-  font-family: $font-family;
   font-size:$font-s;
   color: $color-secondary;
+}
+@media all and (min-width:768px){
+  .page__aside{
+    display:block;
+    padding-top:50px;
+  }
+  .aside__section1, .aside__section2{
+    width:100%;
+  }
+  .description{
+    margin-bottom:30px;
+  }
 }

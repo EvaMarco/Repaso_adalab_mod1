@@ -1,13 +1,17 @@
 .page__header{
   padding:35px;
   text-align: center;
-  border-bottom: 1px solid $color-light-grey;
 }
 .header__title{
   margin: 15px auto 0;
 }
 .title{
-  font-family: $font-family;
   font-size:$font-xl;
   color: $color-secondary;
+}
+@media all and (min-width:768px){
+  .page__section{
+    display:flex;
+    min-height: calc(100vh - 100px);
+  }
 }

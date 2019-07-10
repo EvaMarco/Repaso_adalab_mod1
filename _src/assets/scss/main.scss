@@ -10,3 +10,11 @@
   margin: 0;
   box-sizing:border-box;
 }
+body{
+  font-family: $font-family;
+  background:linear-gradient(to right, #7f8c8d 0%, #7f8c8d 50%, #fff 50%, #fff 100%);
+}
+.page{
+  margin:0 40px;
+  background-color: #fff;
+}
